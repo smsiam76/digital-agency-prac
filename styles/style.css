@@ -1,0 +1,144 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.primary-btn{
+	border: 0;
+	border-radius: 3px;
+	background-color: orangered;
+	color: #fff;
+	padding: 10px 15px;
+	font-size: 16px;
+	margin-right: 10px;
+}
+
+
+.header{
+	
+}
+/*Nav section*/
+.nav-container{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: lightgray;
+	padding: 15px 0;
+}
+.nav-logo{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.nav-logo-title{
+	color:cyan;
+}
+.menu-list{
+	list-style: none;
+	display: flex;
+}
+.menu-list a{
+	text-decoration: none;
+	color: #000;
+	padding: 10px;
+}
+.banner{
+	background-image: url('../asset/image/background.jpg'), linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.4));
+	background-blend-mode: overlay;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-repeat: center;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+}
+.banner-container{
+	color: #fff;
+
+}
+.banner-title{
+	font-size: 86px;
+	font-weight: 900;
+	margin-bottom: 10px;
+}
+.banner-title span{
+	color: orangered;
+}
+.banner-description{
+	font-size: 22px;
+	width: 50%;
+	margin: 0 auto 20px;
+}
+
+/*service*/
+.service{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-image: url("../asset/image/footer-bg.png"), linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.9));
+	background-blend-mode: overlay;
+	color: #fff;
+	padding: 80px 30px;
+}	
+.service-title{
+	font-size: 40px;
+}
+
+.service-title span{
+	color: orangered;
+}
+.service-description{
+	line-height: 22px;
+	width: 75%;
+	margin-bottom: 20px;
+}
+.service-left ol{
+	margin-bottom: 20px;
+	list-style: decimal;
+	padding: 0px 15px;
+}
+.service-author{
+	display: flex;
+	gap: 15px;
+}
+.author-left{
+	display: flex;
+	align-items: center;
+	border-right: 3px solid #555;
+}
+.author-text h4 {
+    font-size: 14px;
+}
+.service-author img{
+	width: 35%;
+	border-radius: 50%;
+	justify-content: space-between;
+	margin-right: 10px;
+}
+.service-info img{
+	width: 140px;
+	margin-bottom: 20px;
+}
+.service-right{
+	display: flex;
+}
+.service-info{
+	background-color: #fff;
+	width: 200px;
+	padding: 35px;
+	text-align: center;
+	margin: 7px 10px;
+	border-radius: 10px;
+	color: #000;
+}
+.service-info p {
+
+	font-weight: 700;
+}
+.service-btn{
+	padding: 15px 30px;
+	border-radius: 50px;
+	background-color: #fff;
+	color: #000;
+}
